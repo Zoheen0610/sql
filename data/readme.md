@@ -20,9 +20,8 @@ Save as:
 
 ---
 
-**Instructions:**  
-1. Download the datasets using the links above.  
-2. Place the downloaded files in the project root (or as required by your scripts).  
-3. Update any file paths in your notebooks/scripts if necessary.
+**Instruction:**  
+ Download the datasets using the links above.  
+
 
 
