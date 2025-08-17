@@ -17,6 +17,7 @@ Save as:
 - `spider_train_with_dbid.csv`
 - `spider_train_with_schema.csv`
 - `spider_train_with_separate_schema_column.csv`
+- `spider_val_with_separate_schema_column.csv`
 
 ---
 
