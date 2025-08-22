@@ -1,0 +1,14 @@
+transformers>=4.30.0
+datasets>=2.14.0
+evaluate>=0.4.0
+sentencepiece
+torch>=2.0.0
+bitsandbytes>=0.37.0
+peft>=0.4.0
+tqdm
+scikit-learn
+pandas
+numpy
+nltk
+flask                 
+psycopg2         
