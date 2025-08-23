@@ -7,9 +7,8 @@ import logo2 from "../assets/logo2.png";
 import logo from "../assets/logo.png";
 const navigation = [
   { name: "Query Space", href: "/query" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Learn SQL", href: "#" },
+  { name: "QOptim", href: "#" },
 ];
 
 export default function Navbar() {
