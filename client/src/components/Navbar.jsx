@@ -42,7 +42,7 @@ export default function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-sm/6 font-semibold text-gray-900"
+                className="text-sm/6 font-semibold text-gray-900 dark:text-white"
               >
                 {item.name}
               </a>
@@ -51,7 +51,7 @@ export default function Navbar() {
 
           <div className="hidden lg:flex lg:flex-1 lg:justify-end margin-left: 20px">
             <ThemeToggle />
-            <a href="#" className="text-sm/6 font-semibold text-gray-900 ml-5 ">
+            <a href="#" className="text-sm/6 font-semibold text-gray-900 ml-5 dark:text-lime">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
