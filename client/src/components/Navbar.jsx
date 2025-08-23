@@ -6,8 +6,8 @@ import ThemeToggle from "./ThemeToggle";
 import logo2 from "../assets/logo2.png";
 import logo from "../assets/logo.png";
 const navigation = [
-  { name: "Query Space", href: "/query" },
-  { name: "Learn SQL", href: "#" },
+  { name: "QGen", href: "/query" },
+  { name: "QLearn", href: "#" },
   { name: "QOptim", href: "#" },
 ];
 

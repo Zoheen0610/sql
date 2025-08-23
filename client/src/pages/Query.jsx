@@ -43,7 +43,7 @@ export default function Query() {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
           <div className="text-center flex flex-col items-center ">
             <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 dark:text-lime sm:text-7xl">
-              Query Space
+              QGen
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-500 dark:text-gray-300 sm:text-xl/8">
               Generate your sql query using natural language.

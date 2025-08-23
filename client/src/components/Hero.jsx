@@ -30,12 +30,12 @@ export default function Example() {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 dark:text-lime sm:text-7xl">
-              Data to enrich your online business
+            <h1 className="text-3xl font-semibold tracking-tight text-balance text-gray-900 dark:text-lime sm:text-7xl">
+              QueryCraft
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-500 dark:text-gray-300 sm:text-xl/8">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
+              Turn plain English into accurate SQL queries instantly. Save time,
+              avoid errors, and focus on insights—not syntax.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
@@ -44,7 +44,10 @@ export default function Example() {
               >
                 Get started
               </a>
-              <a href="#" className="text-sm/6 font-semibold text-gray-900 dark:text-lime">
+              <a
+                href="#"
+                className="text-sm/6 font-semibold text-gray-900 dark:text-lime"
+              >
                 Learn more <span aria-hidden="true">→</span>
               </a>
             </div>
