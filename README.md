@@ -4,50 +4,50 @@
 ![App Screenshot](./assets/20250830_174515.png)  
 
 
-QGen is a Text-to-SQL Generator that allows users to input a natural language query (English sentence) and automatically generates the corresponding SQL query.
+QGen is a **Text-to-SQL** Generator that allows users to input a natural language query (English sentence) and automatically generates the corresponding SQL query.
 
-The project fine-tunes a T5 model in two stages:
+The project fine-tunes a **T5 model** in two stages:
 
-WikiSQL → Learn general SQL syntax (~60k samples)
+- **WikiSQL** → Learn general SQL syntax (~60k samples)
 
-Spider → Learn schema-aware SQL generation (~7k samples)
+- **Spider** → Learn schema-aware SQL generation (~7k samples)
 
 The trained model is integrated into a web interface for easy usage.
 
 # Features
 
-Convert English queries → SQL queries
+- Convert **English queries → SQL queries**
 
-Two-stage fine-tuned T5 model with LoRA adapters
+- Two-stage fine-tuned **T5 model with LoRA adapters**
 
-Schema-aware query generation
+- Schema-aware query generation
 
-FastAPI backend with REST API endpoint
+- **FastAPI** backend with REST API endpoint
 
-React frontend for interactive usage
+- **React** frontend for interactive usage
 
-Modular repo: ML training, backend, and frontend separated.
+- Modular repo: ML training, backend, and frontend separated.
 
 # Tech Stack
 
 Model: T5-small (fine-tuned with LoRA)
 
-Datasets: WikiSQL (~60k) & Spider (~7k preprocessed)
+- Datasets: WikiSQL (~60k) & Spider (~7k preprocessed)
 
-Frameworks:
+- Frameworks:
 
-Hugging Face Transformers
+- Hugging Face Transformers
 
-PEFT (LoRA adapters)
+- PEFT (LoRA adapters)
 
-PyTorch
+- PyTorch
 
-Backend: FastAPI + Uvicorn
+- Backend: FastAPI + Uvicorn
 
-Frontend: React
+- Frontend: React
 
 # Project Structure
-```bash
+```
 sql/
 │── ML/                       # Model training & fine-tuning
 │   ├── adapter_checkpoint/    # Fine-tuned model weights (LoRA adapters)
@@ -82,7 +82,7 @@ Pairs of natural language questions + DB schema ↔ SQL queries
 
 Goal: train the model to handle schema-aware queries
 # Running Locally
-```
+```bash
 git clone https://github.com/Zoheen0610/sql.git
 cd sql
 pip install -r requirements.txt
