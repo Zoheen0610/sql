@@ -1,4 +1,9 @@
 # QGen – SQL Generator
+## Project Preview  
+
+![App Screenshot](./assets/20250830_174515.png)  
+
+
 QGen is a Text-to-SQL Generator that allows users to input a natural language query (English sentence) and automatically generates the corresponding SQL query.
 
 The project fine-tunes a T5 model in two stages:
@@ -82,7 +87,7 @@ git clone https://github.com/Zoheen0610/sql.git
 cd sql
 pip install -r requirements.txt
 cd server
-uvicorn main:app --reload
+uvicorn server.test:app --reload
 cd client
 npm install
 npm start
