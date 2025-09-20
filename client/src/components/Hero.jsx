@@ -1,7 +1,3 @@
-"use client";
-
-import { useState } from "react";
-
 
 export default function Example() {  
   return (
@@ -34,8 +30,8 @@ export default function Example() {
               QueryCraft
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-500 dark:text-gray-300 sm:text-xl/8">
-              Turn plain English into accurate SQL queries instantly. Save time,
-              avoid errors, and focus on insights—not syntax.
+              Turn plain English into accurate SQL queries instantly.<br/>
+              Save time, avoid errors, and focus on insights—not syntax.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
