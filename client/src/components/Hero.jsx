@@ -19,7 +19,7 @@ export default function Example() {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm/6 dark:bg-lime/5 text-gray-600 ring-1 dark:text-white ring-gray-900/10 dark:ring-gray-50/10 hover:ring-gray-900/20 dark:hover:ring-green-50/20">
               Announcing our next round of funding.{" "}
-              <a href="#" className="font-semibold text-black dark:text-lime">
+              <a href="/read" className="font-semibold text-black dark:text-lime">
                 <span aria-hidden="true" className="absolute inset-0" />
                 Read more <span aria-hidden="true">&rarr;</span>
               </a>
@@ -35,17 +35,12 @@ export default function Example() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="/query"
                 className="rounded-md bg-green-950 dark:bg-lightgreen/20 dark:hover:bg-lightgreen/50 hover:bg-opacity-60 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Get started
               </a>
-              <a
-                href="#"
-                className="text-sm/6 font-semibold text-gray-900 dark:text-lime"
-              >
-                Learn more <span aria-hidden="true">→</span>
-              </a>
+              
             </div>
           </div>
         </div>
