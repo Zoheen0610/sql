@@ -5,10 +5,11 @@ import { useTheme } from "../context/Theme";
 import ThemeToggle from "./ThemeToggle";
 import logo2 from "../assets/logo2.png";
 import logo from "../assets/logo.png";
+
 const navigation = [
   { name: "QGen", href: "/query" },
-  { name: "QLearn", href: "#" },
-  { name: "QOptim", href: "#" },
+  { name: "QLearn", href: "/learn" },
+  { name: "QOptim", href: "/optim" },
 ];
 
 export default function Navbar() {
