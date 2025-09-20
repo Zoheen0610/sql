@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { BASE_URL } from "../config";
 
 export default function Query() {
   const [input, setInput] = useState("");
@@ -9,7 +10,7 @@ export default function Query() {
   const handleSubmit = async (e) => {
       e.preventDefault();
       try {
-      const res = await fetch("http://127.0.0.1:8000/generate-sql", {
+      const res = await fetch( `${BASE_URL}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: input }),
